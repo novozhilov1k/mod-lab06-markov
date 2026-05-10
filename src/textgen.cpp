@@ -1,15 +1,17 @@
 // Copyright 2025 Your Name
-#include "textgen.h"
-
 #include <algorithm>
 #include <cctype>
 #include <iostream>
+#include <random>
 #include <string>
 #include <vector>
 
-TextGenerator::TextGenerator() : rng(std::random_device{}()) {}
-TextGenerator::~TextGenerator() {}
+#include "textgen.h"
 
+TextGenerator::TextGenerator() : rng(std::random_device{}()) {
+}
+TextGenerator::~TextGenerator() {
+}
 int TextGenerator::getRandomIndex(int max) {
   if (max <= 0) return 0;
   std::uniform_int_distribution<int> dist(0, max - 1);

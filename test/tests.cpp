@@ -1,10 +1,10 @@
 // Copyright 2025 Your Name
-#include "textgen.h"
-
 #include <gtest/gtest.h>
 #include <cctype>
 #include <sstream>
 #include <string>
+
+#include "textgen.h"
 
 TEST(TextGeneratorTest, InitPrefixCorrectSize) {
   TextGenerator gen;

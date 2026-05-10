@@ -2,11 +2,11 @@
 #ifndef INCLUDE_TEXTGEN_H_
 #define INCLUDE_TEXTGEN_H_
 
-#include <string>
 #include <deque>
 #include <map>
-#include <vector>
 #include <random>
+#include <string>
+#include <vector>
 
 const int NPREF = 2;
 const int MAXGEN = 1500;

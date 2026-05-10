@@ -1,9 +1,9 @@
 // Copyright 2025 Your Name
-#include "textgen.h"
-
 #include <fstream>
 #include <iostream>
 #include <string>
+
+#include "textgen.h"
 
 int main(int argc, char* argv[]) {
   std::string inputFile = "input.txt";
