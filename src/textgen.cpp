@@ -7,11 +7,8 @@
 #include <string>
 #include <vector>
 
-TextGenerator::TextGenerator() : rng(std::random_device{}()) {
-}
-
-TextGenerator::~TextGenerator() {
-}
+TextGenerator::TextGenerator() : rng(std::random_device{}()) {}
+TextGenerator::~TextGenerator() {}
 
 int TextGenerator::getRandomIndex(int max) {
   if (max <= 0) return 0;
