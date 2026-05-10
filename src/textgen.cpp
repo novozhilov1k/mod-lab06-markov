@@ -8,7 +8,7 @@
 
 #include "textgen.h"
 
-TextGenerator::TextGenerator() : rng(std::random_device{}()) {
+TextGenerator::TextGenerator() : rng(std::random_device()) {
 }
 
 TextGenerator::~TextGenerator() {
