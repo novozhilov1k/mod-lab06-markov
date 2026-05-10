@@ -12,6 +12,7 @@ TextGenerator::TextGenerator() : rng(std::random_device{}()) {
 }
 TextGenerator::~TextGenerator() {
 }
+
 int TextGenerator::getRandomIndex(int max) {
   if (max <= 0) return 0;
   std::uniform_int_distribution<int> dist(0, max - 1);
